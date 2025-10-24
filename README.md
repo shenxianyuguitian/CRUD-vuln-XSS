@@ -79,6 +79,8 @@ There is no client- or server-side sanitization of `msg` fields prior to DOM ins
 
 6.Verify in the browser console that XSS-TEST is logged — this demonstrates script execution arising from the tampered JSON response.
 
+---
+
 ## Mitigations & Quick Fix Snippets
 
 **Client change (preferred):** stop using v-html for server validation messages:
